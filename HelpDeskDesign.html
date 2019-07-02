@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>HelpDesk</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <header id="header">
+       
+        <!-- NAVBAR -->
+    
+        <div class="navbar">
+            <ul>
+                <li class="navbar__link"><a class="navbar__link--a" href="#">Homepage</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="#">Knowledge Base</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="#">News</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="#">Events</a></li>
+                <li class="navbar__link"><a class="navbar__link--a" href="#">Register</a></li>
+                <li class="navbar__link--enroll"><a class="navbar__link--a" href="#">LogIn</a></li>
+            </ul>
+        </div>
+    </header>
+
+    
+    <div class="title-image">
+        
+    </div>
+
+    <!-- Content -->
+    <div class="content__wrapper">
+        <h1>Welcome to our Online Helpdesk</h1>
+        <div class="content__leftside">
+            <h2>What can we do for you?</h2>
+            <form class="main-form" action="../php/thanks.php" method="POST">
+                <input class="input_text" required type="text" placeholder="E-Mail" name="email" />
+                <input class="input_text" required type="text" placeholder="Name" name="name" />
+                <textarea class="input_textarea" placeholder="Message" name="message"></textarea>
+                <select class="input_select" required name="interest">
+                    <option selected disabled value="">What Information do you need?</option>
+                    <option value="login">How to LogIn</option>
+                    <option value="register">How to Register</option>
+                    <option value="aboutus">AboutUs</option>
+                    <option value="faq">Faq</option>
+                </select>
+                <input class="main__button__form" type="submit" name="submit" value="Submit">
+            </form>
+        </div>
+        <div class="content__rightside--35">
+            <div class="contact__social-media">
+                <h2>For more information</h2>
+                <p class="p__margin-bottom">
+                    Tel: +31 23 271 5322<br />
+                </p>
+                <p class="p__margin-bottom">
+                    Help Desk<br />
+                </p>
+            </div>
+        </div>
+    </div>
+	<!-- Footer -->
+    <footer id="footer">
+        <div class="footer__wrapper">
+            <div class="footer__left">
+                <a href="#">Privacy Statement</a>&nbsp;|&nbsp;<a href="#">Cookie Policy</a>&nbsp;|&nbsp;<a href="#">Disclaimer</a>
+            </div>
+            <div class="footer__right">
+                <p>Basic template Support Desk</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

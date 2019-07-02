@@ -1,0 +1,409 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    color: #404040;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+}
+
+
+
+h1,
+h2
+{
+    font-family: 'Arial', arial;
+    font-weight: 400;
+    color: #05014A;
+    margin-bottom: 15px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+
+p {
+    font-size: 14px;
+}
+
+.p__margin-bottom {
+    margin-bottom: 12px;
+}
+
+a {
+    font-family: 'Arial';
+    color: #404040;
+    text-decoration: none;
+}
+
+/* Header */
+#header {
+
+    width: 100%;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    height: 70px;
+    background-color: #f2f2f2;
+    top: 0px;
+}
+
+/* Main Image */
+.title-image {
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+    margin: 70px auto 0px auto;
+}
+
+#signup{
+    width: 60%;
+    /*    border-radius: 30px;*/
+    background-color: SlateBlue;
+    margin-top: 50px;
+
+}
+#login{
+    width: 60%;
+    background-color: SlateBlue;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    /*    border-radius: 30px;*/
+    margin-top: 50px;
+}
+#employee_buttons{
+    width: 60%;
+    background-color: SlateBlue;
+    border: 1px solid #1da1f2;
+    color: #fff;
+    /*    border-radius: 30px;*/
+    margin-top: 50px;
+    opacity: 0.8;
+}
+
+
+/* Navbar */
+.navbar {
+    float: right;
+    margin-top: 20px;
+}
+
+.navbar__link,
+.navbar__link--enroll {
+    width: auto;
+    float: left;
+    margin-right: 20px;
+    padding: 8px 12px;
+}
+
+.navbar__link-de
+{
+    width: auto;
+    float: left;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+.navbar__link-nl {
+    width: auto;
+    float: left;
+    margin-right: 10px;
+    padding: 8px;
+}
+
+.navbar__link:hover
+{
+    border-bottom: 1px solid #404040;
+}
+
+.navbar__link--enroll
+{
+    background-color: SlateBlue;
+
+    color: #fff;
+    margin-right: 0px;
+    border-radius: 5px;
+
+}
+
+.navbar__link--enroll .navbar__link--a
+{
+    color: #ffffff;
+    padding-bottom: 5px;
+}
+
+/* Main Content */
+.content__wrapper {
+    height: 100%;
+    width: 100%;
+    padding-left:300px;
+    margin: 50px auto;
+    overflow:hidden;
+    padding-bottom: 100px;
+}
+
+
+
+.main__button__form {
+    width: auto;
+    padding: 8px 12px;
+    background-color:SlateBlue;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+#FAQ 
+{
+    height: 100%;
+    width: 1400px;
+
+    margin: 50px auto;
+    padding-bottom: 100px;
+}
+
+
+
+.content__leftside {
+    float: left;
+    width: 50%;
+}
+
+
+.content__rightside--35 {
+    float: right;
+    width: 35%;
+}
+
+
+
+/* Footer */
+#footer {
+    /*    margin-top: -100px;*/
+    background-color: SlateBlue;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    float: left;
+    width: 100%;
+
+}
+
+.footer__left {
+    width: 50%;
+    float: left;
+}
+
+.footer__right {
+    width: 50%;
+    float: left;
+}
+
+#footer a {
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Montserrat', serif;
+}
+
+.footer__wrapper {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#footer p {
+    margin: auto;
+    font-size: 12px;
+    text-align: right;
+}
+
+
+
+/* Form */
+.input_text {
+    height: 40px;
+    padding-left: 20px;
+    width: 100%;
+    border: 0px;
+    background-color: #E0E0E0;
+    color: #404040;
+    margin-bottom: 15px;
+}
+
+.input_textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px 20px;
+    border: 0px;
+    background-color: #E0E0E0;
+    resize: none;
+    margin-bottom: 15px;
+    font-size: 12px !important;
+    font-family: 'Arial', serif !important;
+}
+
+::placeholder {
+    color: #404040;
+    font-size: 12px !important;
+    font-family: 'Arial', serif !important;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.input_select {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #E0E0E0;
+    z-index: 10;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+select {
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+    border-radius: 0;
+    margin: 0;
+    display: block;
+    width: 100%;
+    padding: 15px;
+    color: #404040;
+}
+
+.main-form .main__button,
+.main__button__form {
+    margin-top: 0px;
+    width: 100%;
+}
+
+
+
+.disclaimer__paragraph,
+.privacy-policy__paragraph {
+    margin-bottom: 12px;
+}
+
+
+
+.contact__wrapper {
+    margin-top: 50px;
+    height: 100%;
+    width: 900px;
+}
+
+.contact__social-media a {
+    font-size: 30px;
+}
+
+table {
+    height:250px;
+    width: 1000px;
+    position:relative;
+
+    background: SlateBlue;
+    border-collapse: separate;
+    box-shadow: inset 0 1px 0 #fff;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: left;
+}	
+
+th {
+    background: url(https://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#777, #444);
+    border-left: 1px solid #555;
+    border-right: 1px solid #777;
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #333;
+    box-shadow: inset 0 1px 0 #999;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 15px;
+    position: relative;
+    text-shadow: 0 1px 0 #000;	
+}
+
+th:after {
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+    content: '';
+    display: block;
+    height: 25%;
+    left: 0;
+    margin: 1px 0 0 0;
+    position: absolute;
+    top: 25%;
+    width: 100%;
+}
+
+th:first-child {
+    border-left: 1px solid #777;	
+    box-shadow: inset 1px 1px 0 #999;
+}
+
+th:last-child {
+    box-shadow: inset -1px 1px 0 #999;
+}
+
+td {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #e8e8e8;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 10px 15px;
+    position: relative;
+    transition: all 300ms;
+}
+
+td:first-child {
+    box-shadow: inset 1px 0 0 #fff;
+}	
+
+td:last-child {
+    border-right: 1px solid #e8e8e8;
+    box-shadow: inset -1px 0 0 #fff;
+}	
+
+tr {
+    background: url(https://jackrugile.com/images/misc/noise-diagonal.png);	
+}
+
+tr:nth-child(odd) td {
+    background: #f1f1f1 url(https://jackrugile.com/images/misc/noise-diagonal.png);	
+}
+
+tr:last-of-type td {
+    box-shadow: inset 0 -1px 0 #fff; 
+}
+
+tr:last-of-type td:first-child {
+    box-shadow: inset 1px -1px 0 #fff;
+}	
+
+tr:last-of-type td:last-child {
+    box-shadow: inset -1px -1px 0 #fff;
+}	
+
+tbody:hover td {
+    color: transparent;
+    text-shadow: 0 0 3px #aaa;
+}
+
+tbody:hover tr:hover td {
+    color: #444;
+    text-shadow: 0 1px 0 #fff;
+}
